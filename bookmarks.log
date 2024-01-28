@@ -4,3 +4,8 @@
 {"level":"info","ts":"2024-01-28T11:37:21.248-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
 {"level":"info","ts":"2024-01-28T11:41:12.423-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
 {"level":"info","ts":"2024-01-28T11:41:24.803-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:11:17.066-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:20:23.908-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:21:33.091-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:22:49.959-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:22:54.625-0500","caller":"api/handler.go:24","msg":"Finding all bookmarks","env":"dev"}
