@@ -9,3 +9,41 @@
 {"level":"info","ts":"2024-01-28T12:21:33.091-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
 {"level":"info","ts":"2024-01-28T12:22:49.959-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
 {"level":"info","ts":"2024-01-28T12:22:54.625-0500","caller":"api/handler.go:24","msg":"Finding all bookmarks","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:30:09.378-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:36:10.735-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:36:14.984-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:37:21.120-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:39:21.660-0500","caller":"api/handler.go:24","msg":"Finding all bookmarks","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:39:35.731-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:39:58.866-0500","caller":"api/handler.go:24","msg":"Finding all bookmarks","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:40:27.304-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:40:41.728-0500","caller":"api/handler.go:24","msg":"Finding all bookmarks","env":"dev"}
+{"level":"error","ts":"2024-01-28T12:40:41.730-0500","caller":"api/handler.go:29","msg":"Error :ERROR: relation \"bookmarks\" does not exist (SQLSTATE 42P01)","env":"dev","stacktrace":"github.com/Geovanny0401/bookmarks/internal/api.BookmarkController.GetAll\n\t/Users/geovanny/Documents/Developer/Go/bookmarks/internal/api/handler.go:29\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2938\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:2009"}
+{"level":"info","ts":"2024-01-28T12:42:15.066-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:42:31.405-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:49:00.248-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:50:22.913-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:55:45.275-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:55:48.912-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:57:22.280-0500","caller":"api/handler.go:24","msg":"Finding all bookmarks","env":"dev"}
+{"level":"error","ts":"2024-01-28T12:57:22.282-0500","caller":"api/handler.go:29","msg":"Error :ERROR: relation \"bookmarks\" does not exist (SQLSTATE 42P01)","env":"dev","stacktrace":"github.com/Geovanny0401/bookmarks/internal/api.BookmarkController.GetAll\n\t/Users/geovanny/Documents/Developer/Go/bookmarks/internal/api/handler.go:29\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/geovanny/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2938\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:2009"}
+{"level":"info","ts":"2024-01-28T12:57:53.307-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T12:58:16.576-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:01:51.265-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:02:07.255-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:03:55.481-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:08:33.365-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:08:58.941-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:09:48.950-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:10:54.674-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:58:11.979-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:58:38.689-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:58:43.959-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:58:46.133-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T13:58:54.164-0500","caller":"api/handler.go:24","msg":"Finding all bookmarks","env":"dev"}
+{"level":"info","ts":"2024-01-28T16:40:11.337-0500","caller":"bookmarks/main.go:23","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T16:49:16.581-0500","caller":"config/db.go:59","msg":"Database migrations applied successfully","env":"dev"}
+{"level":"info","ts":"2024-01-28T16:57:34.584-0500","caller":"api/handler.go:28","msg":"Finding all bookmarks","env":"dev"}
+{"level":"info","ts":"2024-01-28T16:57:35.953-0500","caller":"api/handler.go:28","msg":"Finding all bookmarks","env":"dev"}
+{"level":"info","ts":"2024-01-28T16:57:40.061-0500","caller":"api/handler.go:45","msg":"Creating bookmark for URL: https://google.com","env":"dev"}
+{"level":"info","ts":"2024-01-28T16:57:43.397-0500","caller":"api/handler.go:28","msg":"Finding all bookmarks","env":"dev"}

@@ -26,16 +26,12 @@ type App struct {
 func NewApp(cfg config.AppConfig) *App {
 	logger := config.NewLogger(cfg)
 	// Using pgx driver
-	//db := config.GetDb(cfg, logger)
-	db := config.GetDb(cfg)
-	repo := domain.NewBookmarkRepository(db, logger)
-	handler := api.NewBookmarkController(repo, logger)
 
 	// Using GORM
-	//gormDb := config.GetGormDb(cfg, logger)
-	//repo := domain.NewGormBookmarkRepository(gormDb, logger)
+	gormDb := config.GetGormDb(cfg, logger)
+	repo := domain.NewGormBookmarkRepository(gormDb, logger)
 
-	//bookmarkController := api.NewBookmarkController(repo, logger)
+	bookmarkController := api.NewBookmarkController(repo, logger)
 
 	router := gin.Default()
 	corsConfig := cors.DefaultConfig()
@@ -43,14 +39,12 @@ func NewApp(cfg config.AppConfig) *App {
 	router.Use(cors.New(corsConfig))
 
 	router.GET("/health", healthCheckHandler)
-	router.GET("/api/bookmarks", handler.GetAll)
 
-	/*router.GET("/api/bookmarks", bookmarkController.GetAll)
+	router.GET("/api/bookmarks", bookmarkController.GetAll)
 	router.GET("/api/bookmarks/:id", bookmarkController.GetById)
 	router.POST("/api/bookmarks", bookmarkController.Create)
 	router.PUT("/api/bookmarks/:id", bookmarkController.Update)
 	router.DELETE("/api/bookmarks/:id", bookmarkController.Delete)
-	*/
 
 	return &App{
 		Cfg:    cfg,

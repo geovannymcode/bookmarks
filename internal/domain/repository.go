@@ -2,18 +2,10 @@ package domain
 
 import (
 	"context"
-	"time"
 
 	"github.com/Geovanny0401/bookmarks/internal/config"
 	"github.com/jackc/pgx/v5"
 )
-
-type Bookmark struct {
-	ID        int
-	Title     string
-	Url       string
-	CreatedAt time.Time
-}
 
 type BookmarkRepository interface {
 	GetAll(ctx context.Context) ([]Bookmark, error)
