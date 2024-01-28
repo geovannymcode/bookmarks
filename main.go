@@ -1,20 +1,20 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
-	mux := &http.ServeMux{}
-	mux.HandleFunc("/hello", hello)
-	log.Fatal(http.ListenAndServe(":8080", mux))
+	r := gin.Default()
+	r.GET("/hello", hello)
+	log.Fatal(r.Run(":8080"))
 }
 
-func hello(w http.ResponseWriter, r *http.Request) {
-	_, err := fmt.Fprintln(w, "Hello World!")
-	if err != nil {
-		log.Println("Error processing the request")
-	}
+func hello(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{
+		"message": "Hello Go!",
+	})
 }
