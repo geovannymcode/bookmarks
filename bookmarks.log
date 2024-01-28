@@ -1,0 +1,6 @@
+{"level":"info","ts":"2024-01-28T11:14:12.452-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T11:31:45.848-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T11:32:12.551-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T11:37:21.248-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T11:41:12.423-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
+{"level":"info","ts":"2024-01-28T11:41:24.803-0500","caller":"bookmarks/main.go:18","msg":"Application is running on 8080","env":"dev"}
