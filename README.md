@@ -13,3 +13,5 @@ En este tutorial, utilizaremos las siguientes bibliotecas para construir la API:
 - **zap**: Una biblioteca de registro potente y de alto rendimiento.
 - **pgx**: Un driver y toolkit para PostgreSQL que proporciona soporte para características avanzadas de PostgreSQL.
 - **golang-migrate**: Una biblioteca para manejar migraciones de bases de datos.
+
+# @geovannycode 
